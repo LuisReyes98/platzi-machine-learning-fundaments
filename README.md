@@ -256,4 +256,6 @@ metrics.accuracy_score(y_test, y_pred)
 [Pandas](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet)
 [Scikit](https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet)
 
+[Scikit documentation](https://scikit-learn.org/stable/)
+
 ## ¿Qué es la predicción de datos?
