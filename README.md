@@ -259,3 +259,78 @@ metrics.accuracy_score(y_test, y_pred)
 [Scikit documentation](https://scikit-learn.org/stable/)
 
 ## ¿Qué es la predicción de datos?
+
+- Regresión lineal
+- Regresión logística
+- Regresión multiple
+
+**¿Qué es la predicción de datos?**
+Algoritmos que se definen como "clasificadores" que indentifican a qué conjunto de categorías pertenecen los datos.
+
+la informacion que se provee a los modelos debe estar sumamente cuidada
+
+lo primero a pensar es cual es mi problema a resolver y lo siguiente es obtener el conjunto de datos
+
+Podemos entrenar con datos historicos que entreguen resultados para ser aplicados al negocio
+
+los algoritmos supervisados y no supervisados estan alimentados por un conjunto de datos con diferentes atributos, los cuales son analizados por el modelo, en busqueda de una optimizacion.
+
+## Sobreajuste y subajuste en los datos
+
+Nuestro modelo lo "obligamos" a ajustarse a los datos de entrada y salida
+
+### Sobreajuste (overfiting)
+
+Todos los datos deben estar divididos de forma variada, ya que, si los datos estan demasiado agrupados a un conjunto, al algoritmo ver un nuevo dato que no se parezca al conjunto a pesar de pertecer a el lo identificara erroneamente
+
+Ejemplo: se quiere identificar gatos en una foto y en todas la fotos los gatos son blancos, por lo cual si al algoritmo se le muestra un gato negro no podra identificarlo como un gato.
+
+por lo cual los datos deben ser variados, limpiados y clasificados con anterioridad para evitar el sobreajuste a los datos
+
+Es cuando intentamos obligar a nuestro algoritmo a que se ajuste demasiado a todos los datos posibles en lugar de aprender. Es muy importante proveer con información abundante a nuestro modelo pero también esta debe ser lo suficientemente variada para que nuestro algoritmo pueda generalizar lo aprendido.
+
+### Subajuste (underfiting)
+
+El modelo fallará en el reconocimiento por fallará en el reconocimiento por falta de muestras suficientes. No generaliza el conocimiento.
+
+el modelo falla por tener poca informacion y no logra aprender los rasgos caracteristicos de los datos.
+
+Es cuando le suministramo a nuestro modelo un conjunto de datos es muy pequeño, en este caso nuestro modelo no sera capas de aprender lo suficiente ya que tiene muy poca infomación. La recomendación cuando se tienen muy pocos datos es usar el 70% de los datos para que el algoritmo aprenda y usar el resto para entrenamiento.
+
+### Otras notas
+
+hay varios metodos de cross-validation, y no necesariamente, debe de ser Train-Test. puede ser tambien: Train-Test-Validation, k-folds, LOOCV, etc.
+
+[Las Redes Neuronales... ¿Aprenden o Memorizan? - Overfitting y Underfitting - Parte 1](https://www.youtube.com/watch?v=7-6X3DTt3R8)
+
+## Regresión lineal simple y regresión lineal múltiple
+
+Son algoritmos de tipo supervisado
+
+**Regresión lineal simple**
+Algoritmo de aprendizaje supervisado que nos indica la tendencia de un conjunto de datos continuos, modelando la relación entre una variable dependiente Y y una variable explicativa llamada X.
+
+Esto se representa en una gráfica bidimensional X, Y
+
+cada punto en la gráfica es un elemento de la muestra de datos
+
+Se busca obtener la ecuación de la pendiente optimizada para los datos
+
+$$
+Yi = b + mXi
+$$
+
+Con la regresión lineal simple se puede buscar la relación entre una característica y otra, Ejemplo: salario de las personas a lo largo del tiempo
+
+pero en el caso de tener mas de una caracteristica es decir un ejemplo como: Salario de las personas en base a años de experiencia, edad, estudios, años en la compañia, cantidad de empleos anteriores etc...
+
+para poder trabajar con multiples características se usa la
+
+**Regresión lineal multiple**
+Si nuestro problema tiene más de dos variables se le considera lineal multiple
+
+Al tener multiples dimensiones X, Y, Z, etc. Son representados gráficamente por un hiperplano.
+
+### Otras notas
+
+algo que vale la pena mencionar es que cuando tienes muchas variables X1, X2, …Xn puede suceder que la información mas trascendente se encuentre contenida en tan solo 3 , 5 o unas pocas variables asi que se intenta realizar una “reducción de la dimensión” de manera que solo trabajemos con aquellas variables que representan mayor importancia. métodos para esto pueden ver el más conocido como PCA (principal component analysis)
