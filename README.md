@@ -334,3 +334,21 @@ Al tener multiples dimensiones X, Y, Z, etc. Son representados gráficamente por
 ### Otras notas
 
 algo que vale la pena mencionar es que cuando tienes muchas variables X1, X2, …Xn puede suceder que la información mas trascendente se encuentre contenida en tan solo 3 , 5 o unas pocas variables asi que se intenta realizar una “reducción de la dimensión” de manera que solo trabajemos con aquellas variables que representan mayor importancia. métodos para esto pueden ver el más conocido como PCA (principal component analysis)
+
+## Regresión lineal simple con Scikit-Learn: división de los datos
+
+para subir el CSV de salarios a su entorno de collab, en una celda aparte (o bien en la que por convención, estamos dejando para el tema de los módulos) escriban el siguente código
+
+```python
+from google.colab import files
+
+import io
+from google.colab import files
+uploaded = files.upload()
+```
+
+Esto les abrirá una interfaz para que puedan subir archivos, eso si, tienen que correr la celda dos veces, luego elijen el CSV y lo suben, luego la linea de código se modifica un poco, quedando de la siguiente forma para meterla en un dataframe
+
+```python
+dataset = pd.read_csv(io.BytesIO(uploaded['salarios.csv']))
+```
