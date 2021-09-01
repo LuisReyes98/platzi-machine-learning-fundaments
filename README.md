@@ -352,3 +352,5 @@ Esto les abrirá una interfaz para que puedan subir archivos, eso si, tienen que
 ```python
 dataset = pd.read_csv(io.BytesIO(uploaded['salarios.csv']))
 ```
+
+## Regresión lineal simple con Scikit-Learn: creación del modelo
