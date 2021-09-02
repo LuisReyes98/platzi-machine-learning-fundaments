@@ -354,3 +354,9 @@ dataset = pd.read_csv(io.BytesIO(uploaded['salarios.csv']))
 ```
 
 ## Regresión lineal simple con Scikit-Learn: creación del modelo
+
+## Regresión logística con Scikit-Learn: definición y división de datos
+
+Si nuestro dato de salida tiene un valor cualitativo utilizamos y aplicamos la regresión logística
+
+Lo comun es que el ingeniero de machine learning recibe la información limpia y ordenada
