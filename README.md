@@ -360,3 +360,15 @@ dataset = pd.read_csv(io.BytesIO(uploaded['salarios.csv']))
 Si nuestro dato de salida tiene un valor cualitativo utilizamos y aplicamos la regresión logística
 
 Lo comun es que el ingeniero de machine learning recibe la información limpia y ordenada
+
+## Regresión logística con Scikit-Learn: evaluación del modelo
+
+Formas de validar un modelo de regresión logística
+
+Matriz de confusión
+
+|              |           |                           | Prediccion                |
+| ------------ | --------- | ------------------------- | ------------------------- |
+|              |           | **Positivos**             | **Negativos**             |
+| Obeservacion | Positivos | Verdaderos Positivos (VP) | Falsos negativos (FN)     |
+| Obeservacion | Negativos | Falsos Positivos (FP)     | Verdaderos Negativos (VN) |
