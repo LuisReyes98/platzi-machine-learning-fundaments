@@ -422,3 +422,46 @@ Lo anterior es un proceso que se realiza por cada instancia a clasificar y nos p
 ![exactitud](./Exactitud.jpg)
 
 ![Tase de error](Tasa_de_error.webp)
+
+## ¿Qué es un árbol de decisión y cómo se divide?
+
+Es una forma gráfica y analítica que presenta sucesos y sus posibles consecuencias
+
+Es una manera de dividir todos los sucesos y por último obtener una decisión
+
+Es un grafo con forma de arbol que en cada una de sus ramas tiene una decisión
+
+Ejemplo:
+Una tienda en base a los datos que recolecta del comportamiento de un cliente puede descifrar que producto tiene la intención de comprar
+
+### Ventajas
+
+- Claridad en los datos
+Se sabe que hace en base a los caminos
+
+- Tolerante al ruido y valores faltantes
+
+- Las reglas extraídas permiten hacer predicciones
+
+### Desventajas
+
+- Criterio de division es deficiente
+- Sobreajuste
+- Ramas poco significativas
+Puedes llegar a tener ramas que su peso en la decisión en muy bajo
+
+### Como se divide un arbol de decisión
+
+En base a los ejemplos y las características que llevaron a una decision se crea la relación entre los datos que lleva a una decision
+
+### Optimización de nuestro modelo
+
+- Evitar sobreajuste
+Ocasionara que el modelo no se adapte a la vida real
+- Selección de atributos
+Identificar cuáles son los atributos relevantes a la hora de tomar la decisión
+- Campos nulos
+El tener campos nulos hara que se genere mucho ruido en los datos ocasionando deficiencia en el modelo
+
+## Comprendiendo nuestro data set para la creación de un árbol de decisión
+
