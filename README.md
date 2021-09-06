@@ -465,3 +465,4 @@ El tener campos nulos hara que se genere mucho ruido en los datos ocasionando de
 
 ## Comprendiendo nuestro data set para la creación de un árbol de decisión
 
+[Dataset de sobrevivientes del Titanic](https://www.kaggle.com/c/titanic/data)
