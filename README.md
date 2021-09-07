@@ -487,10 +487,12 @@ Estos datos se obtienen de un análisis previo a los datos trabajados.
 
 ## Entrenamiento del modelo de clasificación
 
-[Classification vs. Prediction](https://www.fharrell.com/post/classification/)
+Links de informacion util de porque usar la score para medir la eficacia de un clasificador es una mala decisión.
 
-[Damage Caused by Classification Accuracy and Other Discontinuous Improper Accuracy Scoring Rules](https://www.fharrell.com/post/class-damage/)
+- [Classification vs. Prediction](https://www.fharrell.com/post/classification/)
 
-[Why is accuracy not the best measure for assessing classification models?](https://stats.stackexchange.com/questions/312780/why-is-accuracy-not-the-best-measure-for-assessing-classification-models?newreg=0e20e6e4acda4d64b19b600a61b12665)
+- [Damage Caused by Classification Accuracy and Other Discontinuous Improper Accuracy Scoring Rules](https://www.fharrell.com/post/class-damage/)
 
-[Example when using accuracy as an outcome measure will lead to a wrong conclusion](https://stats.stackexchange.com/questions/368949/example-when-using-accuracy-as-an-outcome-measure-will-lead-to-a-wrong-conclusio)
+- [Why is accuracy not the best measure for assessing classification models?](https://stats.stackexchange.com/questions/312780/why-is-accuracy-not-the-best-measure-for-assessing-classification-models?newreg=0e20e6e4acda4d64b19b600a61b12665)
+
+- [Example when using accuracy as an outcome measure will lead to a wrong conclusion](https://stats.stackexchange.com/questions/368949/example-when-using-accuracy-as-an-outcome-measure-will-lead-to-a-wrong-conclusio)
