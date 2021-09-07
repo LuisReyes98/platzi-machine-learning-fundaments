@@ -466,3 +466,31 @@ El tener campos nulos hara que se genere mucho ruido en los datos ocasionando de
 ## Comprendiendo nuestro data set para la creación de un árbol de decisión
 
 [Dataset de sobrevivientes del Titanic](https://www.kaggle.com/c/titanic/data)
+
+## Creando un clasificador con Scikit-Learn
+
+Notas Alumnos
+
+**johanR**
+algunas cosas que comentar que pueden ser utiles
+
+- cuando se hace el drop intentando eliminar algunas variables que no serán de interés, axis = 1 indica que estas variables son "columnas ", axis = 0 , indicaría que son filas.
+- las dummy variables que se mencionan ligeramente convierten las variables categóricas en indicadoras como 0,1,2,…etc
+- cuando se completaron los valores faltantes en las variables edad y la clase del pasajero (embarked), faltó mencionar un comando muy util para saber en que variables se tienen valores faltantes. Se puede usar train_df.isnull.any().
+
+**David Rueda**
+Cuando se llenan los espacios con vacíos (fillna), para el caso de datos numéricos se utiliza la mediana porque es una de las medidas de tendencia central que menos se afecta por los datos atípicos.
+
+Para el caso de los datos categóricos relacionados con el embarque, se utiliza la letra S porque representa el embarque en la ciudad de South Hampton, en donde más personas se unieron al viaje.
+
+Estos datos se obtienen de un análisis previo a los datos trabajados.
+
+## Entrenamiento del modelo de clasificación
+
+[Classification vs. Prediction](https://www.fharrell.com/post/classification/)
+
+[Damage Caused by Classification Accuracy and Other Discontinuous Improper Accuracy Scoring Rules](https://www.fharrell.com/post/class-damage/)
+
+[Why is accuracy not the best measure for assessing classification models?](https://stats.stackexchange.com/questions/312780/why-is-accuracy-not-the-best-measure-for-assessing-classification-models?newreg=0e20e6e4acda4d64b19b600a61b12665)
+
+[Example when using accuracy as an outcome measure will lead to a wrong conclusion](https://stats.stackexchange.com/questions/368949/example-when-using-accuracy-as-an-outcome-measure-will-lead-to-a-wrong-conclusio)
