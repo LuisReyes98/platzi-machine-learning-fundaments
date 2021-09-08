@@ -496,3 +496,23 @@ Links de informacion util de porque usar la score para medir la eficacia de un c
 - [Why is accuracy not the best measure for assessing classification models?](https://stats.stackexchange.com/questions/312780/why-is-accuracy-not-the-best-measure-for-assessing-classification-models?newreg=0e20e6e4acda4d64b19b600a61b12665)
 
 - [Example when using accuracy as an outcome measure will lead to a wrong conclusion](https://stats.stackexchange.com/questions/368949/example-when-using-accuracy-as-an-outcome-measure-will-lead-to-a-wrong-conclusio)
+
+## Visualización del árbol de decisión
+
+## ¿Qué es K-Means?
+
+Es un algoritmo de tipo no supervisado
+
+Crea K grupos a partir de un conjunto de observaciones, los elementos deben tener similitudes
+
+Clasifica la informacion en grupos en base a las similitudes
+
+1. Selecciona un valor para K (centroides)
+2. Asignamos cada uno de los elementos restantes al centro mas cercano
+3. Asignamos cada punto a su centroide más cercano
+4. Repetimos paso 2 y 3 hasta que los centros no se modifiquen
+
+### Método del codo
+
+- Calcula el agrupamiento para diferentes de K
+- El error al cuadrado para cada punto es el cuadrado de la distancia del punto desde su centro
