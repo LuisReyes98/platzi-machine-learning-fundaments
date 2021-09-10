@@ -516,3 +516,30 @@ Clasifica la informacion en grupos en base a las similitudes
 
 - Calcula el agrupamiento para diferentes de K
 - El error al cuadrado para cada punto es el cuadrado de la distancia del punto desde su centro
+
+### otras notas
+
+- Algoritmo no supervisado.
+- Crea K grupos a partir de observaciones de un set de datos.
+- Trata información que no tiene etiquetas asignadas.
+- Agrupa información basada en sus características.
+- K = centroides
+- Aproximación a K: método del codo
+- Aplicaciones:
+
+Segmentación por comportamiento:
+
+- por historial de compras
+- actividad en una aplicación móvil, web
+- Definir personas basadas en sus intereses.
+- Crear perfiles basado en el monitoreo de actividad.
+- Ordenando medidas de sensores:
+- Detecta tipos de actividades en sensores de movimiento.
+- Grupos de imágenes.
+- Separar audio.
+- Identificar grupos en monitoreo de salud.
+
+[**Ejemplo:**](https://github.com/sergio2526/Modelo-Accidentes/blob/master/Codigo/m%C3%A9todo_del_codo.ipynb)
+
+## Cargando el data set de Iris
+
