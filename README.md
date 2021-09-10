@@ -497,6 +497,8 @@ Links de informacion util de porque usar la score para medir la eficacia de un c
 
 - [Example when using accuracy as an outcome measure will lead to a wrong conclusion](https://stats.stackexchange.com/questions/368949/example-when-using-accuracy-as-an-outcome-measure-will-lead-to-a-wrong-conclusio)
 
+- [Modelo de prediccion de riesgo](https://medium.com/@mohcine.madkour/use-scikit-learn-pipelines-to-select-a-risk-prediction-model-for-type-2-diabetes-14db7a47efa5)
+
 ## Visualización del árbol de decisión
 
 ## ¿Qué es K-Means?
@@ -547,3 +549,6 @@ Segmentación por comportamiento:
 - 50 muestras de cada especie
 - Largo y ancho del sépalo y pétalo
 
+## Construcción y evaluación del modelo con K-Means
+
+## Graficación del modelo
