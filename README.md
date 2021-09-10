@@ -543,3 +543,7 @@ Segmentación por comportamiento:
 
 ## Cargando el data set de Iris
 
+- Virginica, Versicolor y Setosa
+- 50 muestras de cada especie
+- Largo y ancho del sépalo y pétalo
+
