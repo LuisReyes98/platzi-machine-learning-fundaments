@@ -674,7 +674,7 @@ básicamente cada capa capta cierto atributos de la imagen, generalmente las pri
 
 [Video explicativo de Dot CSV](https://www.youtube.com/watch?v=V8j1oENVz00)
 
-[Ejemplo de deteccion de rostros y ojos](https://platzi.com/tutoriales/1866-keras-neural-networks/6365-cnn-para-deteccion-de-rostros-y-ojos-en-tiempo-real-con-opencv/)
+[CNN para deteccion de rostros y ojos en tiempo real con OpenCV](https://platzi.com/tutoriales/1866-keras-neural-networks/6365-cnn-para-deteccion-de-rostros-y-ojos-en-tiempo-real-con-opencv/)
 
 ## Conociendo el set de datos para la creación de la red neuronal
 
