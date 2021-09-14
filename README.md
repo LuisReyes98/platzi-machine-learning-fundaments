@@ -654,8 +654,28 @@ model.predict(test_images)
 
 ## Red neuronal convolucional
 
-Modelan de forma consecutiva pequeñas piezas de información, al final combinan información en las capas mas profundas de la red.
+Modelan de forma consecutiva pequeñas piezas de información, al final combinan información en las capas más profundas de la red.
 
-Existen diferentes tipos de redes neuronales para diversas tareas, a la hora de manejar imagenes o imagenes o audio se usan redes neuronales convolucionales
+Existen diferentes tipos de redes neuronales para diversas tareas, a la hora de manejar imágenes o audio se usan redes neuronales convolucionales
 
-Las redes neuronales convolucionales se caracterizan porque van dividiendo la información de una manera consecutiva
+Las redes neuronales convolucionales se caracterizan porque tienen una sección que va dividiendo la información de una manera consecutiva
+
+De esta forma se puede enfocar en aprender únicamente ciertas secciones
+
+logrando así encontrar diferentes patrones que existen en los datos
+
+en el caso de las imágenes se divide en multiples segmentos y cada segmento se vuelve una capa que es analizada para luego procesarla con las funciones de activación
+
+la capa de salida se calcula en base a los pesos de cada una de las características para así poder asignarles una etiqueta a los datos.
+
+### Otras notas
+
+básicamente cada capa capta cierto atributos de la imagen, generalmente las primeras captan “bordes” , pero entre mas profunda la red capta caracteristicas mas complejas. En si aplicar una convolucion resulta en aplicar una matriz de numeros a la imagende input vista igualmente como una matriz de números. donde dichos numeros hacen referencia a los pixeles de la misma que van de 0 a 256. El tema es valga la redundancia muy profundo pero espero el comentario sirva a algunos.
+
+[Video explicativo de Dot CSV](https://www.youtube.com/watch?v=V8j1oENVz00)
+
+[Ejemplo de deteccion de rostros y ojos](https://platzi.com/tutoriales/1866-keras-neural-networks/6365-cnn-para-deteccion-de-rostros-y-ojos-en-tiempo-real-con-opencv/)
+
+## Conociendo el set de datos para la creación de la red neuronal
+
+[Clasificacion basica con Fashion MNIST](https://www.tensorflow.org/tutorials/keras/classification)
