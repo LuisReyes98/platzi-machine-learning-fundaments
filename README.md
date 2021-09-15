@@ -679,3 +679,5 @@ básicamente cada capa capta cierto atributos de la imagen, generalmente las pri
 ## Conociendo el set de datos para la creación de la red neuronal
 
 [Clasificacion basica con Fashion MNIST](https://www.tensorflow.org/tutorials/keras/classification)
+
+## Crea y entrena tu primera red neuronal convolucional con Tensor Flow
